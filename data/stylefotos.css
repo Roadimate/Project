@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  }
+body {
+  font-family: 'Open Sans', Verdana, Helvetica, sans-serif; 
+  background: #d0d0c8;
+  }
+h2 {
+  color: white; 
+  text-align: center;
+  }
+h2.ttitulo {
+  color: white; 
+  text-align: center;
+  font-size:200%;
+  }
+header {
+  background-color: #666; 
+  padding: 5px; 
+  text-align: center;  
+  font-size: 15px; 
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 13% 40% 10% 10%;
+  grid-gap: 10px;
+  background-color: #3c3c3c;
+  padding: 10px;
+  border: 1px white;
+  border-radius: 10px;
+  height:150px; 
+}
+.grid-container > div {
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
+.item1 {
+  height:65px; 
+}
+.item2 {
+  height:65px;
+  font-size:200%;
+}
+.item3 {
+  height:65px;
+  font-size:200%;
+}
+.item4 {
+  height:65px;
+  margin-top:30px;
+}
+.item5 {
+  height:65px;
+}
+.item6 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height:50px; 
+}
+p.bottitle{
+  text-align: center; 
+  color: black;
+  font-size:70%;
+  color: white;
+}
+p.imagem{
+  text-align: center; 
+  color: white;
+  font-size:75%;
+  padding: 40px; 
+}
+ul.one {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #d0d0c8;
+}
+li {
+  float: center;
+}
+nav {
+  float: left;  
+  width: 19%; 
+  background: #b4b4b4; 
+  padding-right:3px; 
+  padding-left: 3px; 
+  height:385px;
+  border-radius: 0px 0px 0px 10px;
+  }
+nav ul {
+  list-style-type: none; 
+  padding: 5px;
+  background-color: #b4b4b4;
+  margin-bottom: 10px; 
+  }
+a.a1:link, a.a1:visited {
+  background-color: #555555;
+  color: white;
+  padding: 6px 14px;
+  font-size:45%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px white;
+  border-radius: 7px;
+}
+div.main {
+  float: left; 
+  padding: 0px; 
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 68%; 
+  height:385px; 
+  background-color: #f1f1f1;
+  border-radius: 0px 0px 10px 0px;
+  }
+img.tit{
+ width: 130%;
+ }
+img{
+ width: 85%;
+ }
+p.just{
+  text-align: justify;
+  font-size:90%;
+}
+section:after {
+  content: "";  
+  display: table;  
+  clear: both;
+  }
+footer {
+  background-color:#777; 
+  padding:5px; 
+  text-align: center; 
+  color: white;
+  font-size:50%;
+  border: 1px white;
+  border-radius: 10px;
+  }
